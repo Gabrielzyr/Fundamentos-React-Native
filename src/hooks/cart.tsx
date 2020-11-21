@@ -124,18 +124,3 @@ function useCart(): CartContext {
 }
 
 export { CartProvider, useCart };
-
-/*
-   const cartItems = await AsyncStorage.getItem('@GoMarket/Cart');
-
-    let cartArray = [];
-
-    if (cartItems) {
-      cartArray = JSON.parse(cartItems);
-    }
-
-    if (inCart) {
-
-    }
-
-*/
